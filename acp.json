@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "accountabilityof",
+    "description": "AI incident reporting + tamper-evident audit trail.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://accountabilityof.ai"
+      }
+    ],
+    "capabilities": [
+      "ai-incident-reporting-mcp",
+      "ai-self-audit-mcp",
+      "a2a-governance-bridge-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
